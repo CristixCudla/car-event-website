@@ -449,29 +449,6 @@ USING (
 
 ## 🌐 Deployment
 
-### Vercel (Recomandat)
-
-1. **Fork repository** pe GitHub
-2. **Conectează la Vercel**:
-   ```bash
-   vercel login
-   vercel deploy
-   ```
-3. **Configurează environment variables** în Vercel Dashboard
-4. **Deploy automatic**: Push pe `main` branch
-
-### Environment Variables în Vercel
-
-Adaugă în Project Settings → Environment Variables:
-
-```
-NEXT_PUBLIC_SUPABASE_URL
-NEXT_PUBLIC_SUPABASE_ANON_KEY
-NEXT_PUBLIC_RECAPTCHA_SITE_KEY
-RECAPTCHA_SECRET_KEY
-RESEND_API_KEY (opțional)
-TWILIO_* (opțional)
-```
 
 ### Custom Domain
 
@@ -485,9 +462,9 @@ TWILIO_* (opțional)
 
 ## 📊 Analytics & Monitoring
 
-- **Vercel Analytics**: Built-in pentru performance metrics
+
 - **Supabase Logs**: Database query monitoring
-- **Console Logs**: Debug logs cu prefix `[v0]`
+- **Console Logs**: Debug logs cu prefix `
 
 ---
 
